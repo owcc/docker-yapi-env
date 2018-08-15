@@ -11,7 +11,7 @@ services:
     depends_on:
       - mongodb
     ports:
-      - "3000:3000"
+      - "3000:7010"
     volumes:
       - ./yapi:/my-yapi
   install:
